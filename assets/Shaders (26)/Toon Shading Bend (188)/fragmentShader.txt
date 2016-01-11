@@ -1,0 +1,66 @@
+uniform sampler2D map;
+varying vec2 vUv;
+varying vec3 worldNormal;
+
+uniform vec3 m_shadowColor, m_recievedShadowColor;
+uniform vec3 color;
+
+THREE_ShaderChunk(common)
+uniform vec3 ambientLightColor;
+THREE_ShaderChunk(lights_lambert_pars_vertex)
+THREE_ShaderChunk(shadowmap_pars_fragment)
+
+uniform float shadow1Value;
+uniform float shadow1Intensity;
+uniform float shadow2Value;
+uniform float shadow2Intensity;
+
+varying vec4 vColor;
+
+vec3 inv ( vec3 v )
+{
+  return vec3( 1.0-v.x, 1.0-v.y, 1.0-v.z );
+}
+
+void main() {
+  vec2 mUV = vUv;
+  mUV.x = fract(mUV.x);
+  mUV.y = fract(mUV.y);
+  vec4 c = texture2D(map, mUV) * vec4(color, 1.0);
+  vec3 shadowMask = vec3( 1.0 );
+  vec3 outgoingLight = vec3( 0.0 );
+  vec4 diffuseColor = c;
+  
+  vec3 directionalLights = vec3(0.0, 0.0, 0.0);
+  
+  #if MAX_DIR_LIGHTS > 0
+  float value;
+  for ( int i = 0 ; i<MAX_DIR_LIGHTS ; i++)
+  {
+    value = dot(directionalLightDirection[i], worldNormal) * 0.5 + 0.5;
+    
+    if ( value < shadow2Value ){
+      directionalLights += directionalLightColor[i] * shadow2Intensity + m_recievedShadowColor;
+    }
+    else if ( value < shadow1Value ){
+      directionalLights += directionalLightColor[i] * shadow1Intensity + m_recievedShadowColor;
+    }
+    else{
+      directionalLights += directionalLightColor[i];
+    }
+  }
+  
+  c.xyz *= directionalLights;
+  #endif
+  
+  c.xyz += ambientLightColor;
+  
+  outgoingLight = diffuseColor.rgb;
+  THREE_ShaderChunk(shadowmap_fragment)
+  
+   #ifdef USE_SHADOWMAP
+   c.xyz = c.xyz * inv( inv( shadowMask ) * inv ( m_shadowColor ) );
+   #endif
+    
+  gl_FragColor = c;
+}

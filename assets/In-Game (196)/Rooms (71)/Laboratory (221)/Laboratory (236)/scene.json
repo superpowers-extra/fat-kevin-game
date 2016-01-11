@@ -1,0 +1,3806 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Map",
+      "children": [],
+      "components": [
+        {
+          "type": "TileMapRenderer",
+          "config": {
+            "tileMapAssetId": "237",
+            "tileSetAssetId": null,
+            "castShadow": false,
+            "receiveShadow": true,
+            "materialType": "shader",
+            "shaderAssetId": "120"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefabId": null
+    },
+    {
+      "id": "99",
+      "name": "Root",
+      "children": [
+        {
+          "id": "28",
+          "name": "Beatrice Birthday Event",
+          "children": [],
+          "components": [
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "LaboratoryBeatriceBirthdayEventBehavior",
+                "propertyValues": {}
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 2.4528095722198486,
+            "y": 0,
+            "z": -5.917665004730225
+          },
+          "orientation": {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "w": 6.123234262925839e-17
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "0",
+          "name": "Markers",
+          "children": [
+            {
+              "id": "2",
+              "name": "Right Corridor Door",
+              "children": [],
+              "components": [
+                {
+                  "type": "Behavior",
+                  "config": {
+                    "behaviorName": "RoomChangerBehavior",
+                    "propertyValues": {
+                      "roomName": {
+                        "type": "string",
+                        "value": "Right Corridor"
+                      },
+                      "spawnName": {
+                        "type": "string",
+                        "value": "Laboratory Spawn"
+                      }
+                    }
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 20,
+                "y": 0,
+                "z": -11
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "3",
+              "name": "Right Corridor Spawn",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 19,
+                "y": 0,
+                "z": -11
+              },
+              "orientation": {
+                "x": 0,
+                "y": 1,
+                "z": 0,
+                "w": 6.123233995736766e-17
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "4",
+          "name": "Wall",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "110",
+                "animationId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "shader",
+                "shaderAssetId": "120"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 10.971761703491211,
+            "y": 1.0220725536346436,
+            "z": -14.47330379486084
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 10,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "5",
+          "name": "Wall 2",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "110",
+                "animationId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "shader",
+                "shaderAssetId": "120"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 1.5142608880996704,
+            "y": 1.0220725536346436,
+            "z": -7.983539581298828
+          },
+          "orientation": {
+            "x": 0,
+            "y": -0.7071067811865475,
+            "z": 0,
+            "w": 0.7071067811865476
+          },
+          "scale": {
+            "x": 5.9471330642700195,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "6",
+          "name": "Wall 3",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "110",
+                "animationId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "shader",
+                "shaderAssetId": "120"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 20.49799919128418,
+            "y": 1.0219999551773071,
+            "z": -6.068999767303467
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.7071067811865475,
+            "z": 0,
+            "w": 0.7071067811865476
+          },
+          "scale": {
+            "x": 3.922680139541626,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "7",
+          "name": "Wall 4",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "110",
+                "animationId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "shader",
+                "shaderAssetId": "120"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 20.506999969482422,
+            "y": 1.0219999551773071,
+            "z": -13.031999588012695
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.7071067811865475,
+            "z": 0,
+            "w": 0.7071067811865476
+          },
+          "scale": {
+            "x": 1.0193631649017334,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "9",
+          "name": "Window 1",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "269",
+                "animationId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "shader",
+                "shaderAssetId": "120"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 2.006999969482422,
+            "y": 0,
+            "z": -10.272765159606934
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.7071067811865475,
+            "z": 0,
+            "w": 0.7071067811865476
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "10",
+          "name": "Window 2",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "269",
+                "animationId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "shader",
+                "shaderAssetId": "120"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 2.006999969482422,
+            "y": 0,
+            "z": -5.922850608825684
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.7071067811865475,
+            "z": 0,
+            "w": 0.7071067811865476
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "90",
+          "name": "Props",
+          "children": [
+            {
+              "id": "89",
+              "name": "Front Tables",
+              "children": [
+                {
+                  "id": "11",
+                  "name": "Table",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 2.3411617279052734,
+                    "y": 1.0111427307128906,
+                    "z": 0.605219841003418
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "18",
+                  "name": "Table 2",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -2.5100765228271484,
+                    "y": 1.0111427307128906,
+                    "z": 0.6297621726989746
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "19",
+                  "name": "Table 3",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.0855865478515625,
+                    "y": 1.0111427307128906,
+                    "z": 0.6204962730407715
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "20",
+                  "name": "Table 4",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -2.502674102783203,
+                    "y": 1.0111427307128906,
+                    "z": -0.6491403579711914
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "w": 6.123234262925839e-17
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "21",
+                  "name": "Table 5",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.09297943115234375,
+                    "y": 1.0111427307128906,
+                    "z": -0.6583313941955566
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "w": 6.123234262925839e-17
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "22",
+                  "name": "Table 6",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 2.3166561126708984,
+                    "y": 1.0182626247406006,
+                    "z": -0.6691350936889648
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "w": 6.123234262925839e-17
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                }
+              ],
+              "components": [
+                {
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": true,
+                    "width": 8,
+                    "height": 2.8,
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null,
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 8.5,
+                "y": 0,
+                "z": -5
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "91",
+              "name": "Back Tables",
+              "children": [
+                {
+                  "id": "46",
+                  "name": "Table 7",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 2.516655921936035,
+                    "y": 1.0182626247406006,
+                    "z": -0.6017646789550781
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "w": 6.123234262925839e-17
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "47",
+                  "name": "Table 8",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.035305023193359375,
+                    "y": 1.0182626247406006,
+                    "z": -0.5856075286865234
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "w": 6.123234262925839e-17
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "48",
+                  "name": "Table 9",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -2.451122760772705,
+                    "y": 1.0182626247406006,
+                    "z": -0.6176166534423828
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "w": 6.123234262925839e-17
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "49",
+                  "name": "Table 10",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -2.451122760772705,
+                    "y": 1.0182626247406006,
+                    "z": 0.6767292022705078
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "50",
+                  "name": "Table 11",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.07663154602050781,
+                    "y": 1.0182626247406006,
+                    "z": 0.6877956390380859
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "51",
+                  "name": "Table 12",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 2.530221939086914,
+                    "y": 1.0182626247406006,
+                    "z": 0.6990642547607422
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                }
+              ],
+              "components": [
+                {
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": true,
+                    "width": 7.8,
+                    "height": 2.8,
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null,
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 8.3,
+                "y": 0,
+                "z": -11.5
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "42",
+              "name": "Chairs",
+              "children": [
+                {
+                  "id": "16",
+                  "name": "Chair",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 26.235937118530273,
+                    "y": -12.457845687866211,
+                    "z": -2.5016777515411377
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.043411645642236596,
+                    "z": 0,
+                    "w": 0.9990572657968569
+                  },
+                  "scale": {
+                    "x": 1.0000000420504245,
+                    "y": 1,
+                    "z": 1.0000000420504245
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "27",
+                  "name": "Chair 3",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 16.854941089291515,
+                    "y": -12.457845687866211,
+                    "z": -2.9854159399956472
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.043411641913431026,
+                    "z": 0,
+                    "w": 0.9990572657968569
+                  },
+                  "scale": {
+                    "x": 1.0000000414041506,
+                    "y": 1,
+                    "z": 1.0000000414041506
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "26",
+                  "name": "Chair 2",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "295",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 21.783368538056948,
+                    "y": -12.457845687866211,
+                    "z": -2.4214472427649127
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 2.5850965812423965e-9,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "43",
+                  "name": "Chair 4",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "295",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 17.036182353095114,
+                    "y": -12.457845687866211,
+                    "z": 2.5059712167518455
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.9992623459014756,
+                    "z": 0,
+                    "w": 0.038402704061416854
+                  },
+                  "scale": {
+                    "x": 1.0000000414041506,
+                    "y": 1,
+                    "z": 1.0000000414041506
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "44",
+                  "name": "Chair 5",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 22.100307420576257,
+                    "y": -12.457845687866211,
+                    "z": 3.121592365150434
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.9993429260362684,
+                    "z": 0,
+                    "w": -0.03624522058040344
+                  },
+                  "scale": {
+                    "x": 1.0000000414041506,
+                    "y": 1,
+                    "z": 1.0000000414041506
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "45",
+                  "name": "Chair 6",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 26.128178982831514,
+                    "y": -12.457845687866211,
+                    "z": 4.637252014985847
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.9947385217634904,
+                    "z": 0,
+                    "w": 0.10244645166434173
+                  },
+                  "scale": {
+                    "x": 1.0000000414041506,
+                    "y": 1,
+                    "z": 1.0000000414041506
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "52",
+                  "name": "Chair 7",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "295",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 25.10638147252655,
+                    "y": -12.457845687866211,
+                    "z": 16.37259378638123
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.9998488246196516,
+                    "z": 0,
+                    "w": -0.017387230036602898
+                  },
+                  "scale": {
+                    "x": 1.0000000414041506,
+                    "y": 1,
+                    "z": 1.0000000414041506
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "53",
+                  "name": "Chair 8",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "295",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 21.033450015481037,
+                    "y": -12.457845687866211,
+                    "z": 15.70019334842732
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.9947385217634904,
+                    "z": 0,
+                    "w": 0.10244645166434173
+                  },
+                  "scale": {
+                    "x": 1.0000000414041506,
+                    "y": 1,
+                    "z": 1.0000000414041506
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "54",
+                  "name": "Chair 9",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 16.16791695459699,
+                    "y": -12.457845687866211,
+                    "z": 15.771242355435788
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.998064787153446,
+                    "z": 0,
+                    "w": -0.062182608760768754
+                  },
+                  "scale": {
+                    "x": 1.0000000414041506,
+                    "y": 1,
+                    "z": 1.0000000414041506
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "55",
+                  "name": "Chair 10",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 16.662703948851117,
+                    "y": -12.457845687866211,
+                    "z": 10.088539081140766
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.0034551717491151657,
+                    "z": 0,
+                    "w": 0.9999940363311461
+                  },
+                  "scale": {
+                    "x": 1.0000000414041506,
+                    "y": 1,
+                    "z": 1.0000000414041506
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "56",
+                  "name": "Chair 11",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "295",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 21.715079118600727,
+                    "y": -12.457845687866211,
+                    "z": 10.528449389584694
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.06925514983427546,
+                    "z": 0,
+                    "w": 0.997598981806834
+                  },
+                  "scale": {
+                    "x": 1.0000000414041506,
+                    "y": 1,
+                    "z": 1.0000000414041506
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "57",
+                  "name": "Chair 12",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 26.470277671007125,
+                    "y": -12.457845687866211,
+                    "z": 10.81362101718355
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.08730808603909132,
+                    "z": 0,
+                    "w": 0.9961813587739125
+                  },
+                  "scale": {
+                    "x": 1.0000000414041506,
+                    "y": 1,
+                    "z": 1.0000000414041506
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "83",
+                  "name": "Chair 13",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "295",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 5.263494041808826,
+                    "y": -12.457845687866211,
+                    "z": -3.7195309701941426
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.08940728396047004,
+                    "z": 0,
+                    "w": 0.9959951560790077
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "84",
+                  "name": "Chair 14",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "295",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 1.4870702461491874,
+                    "y": -12.457845687866211,
+                    "z": 0.5874111398330797
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.7067448872541195,
+                    "z": 0,
+                    "w": -0.707468499411744
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "85",
+                  "name": "Chair 15",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "295",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 4.856820426705781,
+                    "y": -12.457845687866211,
+                    "z": 3.992996827926504
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.9999981614217013,
+                    "z": 0,
+                    "w": -0.0019187543882868627
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "86",
+                  "name": "Chair 14",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "295",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 8.1146084323193,
+                    "y": -12.457845687866211,
+                    "z": 0.9169409758597453
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.7570132923006117,
+                    "z": 0,
+                    "w": 0.6533994751475796
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                }
+              ],
+              "components": [],
+              "position": {
+                "x": 19.11510467529297,
+                "y": 6.271611213684082,
+                "z": -5.78862190246582
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.9990572657968569,
+                "z": 0,
+                "w": -0.04341164937104217
+              },
+              "scale": {
+                "x": 0.4999999916583561,
+                "y": 0.5,
+                "z": 0.4999999916583561
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "25",
+              "name": "PC",
+              "children": [
+                {
+                  "id": "13",
+                  "name": "Mouse",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.7936244010925293,
+                    "y": -1.1168850660324097,
+                    "z": -2.1750082969665527
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.21364036071040732,
+                    "z": 0,
+                    "w": 0.9769123823905036
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "14",
+                  "name": "Keyboard",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1.5223922729492188,
+                    "y": -1.092711329460144,
+                    "z": -1.9027981758117676
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "12",
+                  "name": "PC",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "247",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1.4824986457824707,
+                    "y": -1.0736836194992065,
+                    "z": -2.448988437652588
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.03720231762273272,
+                    "z": 0,
+                    "w": 0.9993077504694514
+                  },
+                  "scale": {
+                    "x": 0.7999999998184713,
+                    "y": 0.800000011920929,
+                    "z": 0.7999999998184713
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "23",
+                  "name": "PC 2",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "247",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.8637704849243164,
+                    "y": -1.0736836194992065,
+                    "z": -2.4343080520629883
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.026480267397675665,
+                    "z": 0,
+                    "w": 0.9996493290932276
+                  },
+                  "scale": {
+                    "x": 0.8000000000954582,
+                    "y": 0.800000011920929,
+                    "z": 0.8000000000954582
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "24",
+                  "name": "PC 3",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "247",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 3.2083911895751953,
+                    "y": -1.0736836194992065,
+                    "z": -2.4848008155822754
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.023108318226588723,
+                    "z": 0,
+                    "w": 0.9997329653399739
+                  },
+                  "scale": {
+                    "x": 0.8000000000954582,
+                    "y": 0.800000011920929,
+                    "z": 0.8000000000954582
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "29",
+                  "name": "Keyboard 1",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.7365446090698242,
+                    "y": -1.092711329460144,
+                    "z": -1.8764629364013672
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "30",
+                  "name": "Mouse 2",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 1.4827632904052734,
+                    "y": -1.1168850660324097,
+                    "z": -2.004242420196533
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.21364036071040732,
+                    "z": 0,
+                    "w": 0.9769123823905036
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "31",
+                  "name": "Keyboard 3",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 3.149477958679199,
+                    "y": -1.092711329460144,
+                    "z": -1.938316822052002
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "32",
+                  "name": "Mouse 3",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 3.857069969177246,
+                    "y": -1.1168850660324097,
+                    "z": -2.0537028312683105
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.21364036071040732,
+                    "z": 0,
+                    "w": 0.9769123823905036
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "33",
+                  "name": "PC 4",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "247",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1.4824986457824707,
+                    "y": -1.0736836194992065,
+                    "z": -3.3945136070251465
+                  },
+                  "orientation": {
+                    "x": 0.00026826647069245563,
+                    "y": 0.9990248022881189,
+                    "z": 0.00637449398639707,
+                    "w": 0.043689131132326184
+                  },
+                  "scale": {
+                    "x": 0.7999999998184713,
+                    "y": 0.800000011920929,
+                    "z": 0.7999999998184713
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "34",
+                  "name": "PC 5",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "247",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.7100429534912109,
+                    "y": -1.0736836194992065,
+                    "z": -3.3873276710510254
+                  },
+                  "orientation": {
+                    "x": 0.0005609259199450942,
+                    "y": 0.9999770743007094,
+                    "z": 0.006355431114403198,
+                    "w": -0.0022676810127456558
+                  },
+                  "scale": {
+                    "x": 0.7999999998184713,
+                    "y": 0.800000011920929,
+                    "z": 0.7999999998184713
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "35",
+                  "name": "PC 6",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "247",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 3.0305681228637695,
+                    "y": -1.0736836194992065,
+                    "z": -3.43855619430542
+                  },
+                  "orientation": {
+                    "x": 0.000867622964268518,
+                    "y": 0.998697371236096,
+                    "z": 0.006320867841675631,
+                    "w": -0.050624668658869824
+                  },
+                  "scale": {
+                    "x": 0.7999999998184713,
+                    "y": 0.800000011920929,
+                    "z": 0.7999999998184713
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "36",
+                  "name": "Keyboard 4",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.6881141662597656,
+                    "y": -1.092711329460144,
+                    "z": -3.82875919342041
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9999107678655843,
+                    "z": 0,
+                    "w": -0.013358300448537799
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "37",
+                  "name": "Mouse 4",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 2.2594852447509766,
+                    "y": -1.1168850660324097,
+                    "z": -3.8510351181030273
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.958485133477158,
+                    "z": 0,
+                    "w": -0.28514250280707726
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "38",
+                  "name": "Keyboard 5",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 2.9999961853027344,
+                    "y": -1.092711329460144,
+                    "z": -3.880523681640625
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9999107678655843,
+                    "z": 0,
+                    "w": -0.013358300448537799
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "39",
+                  "name": "Keyboard 6",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1.5054731369018555,
+                    "y": -1.092711329460144,
+                    "z": -3.900912284851074
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9999107678655843,
+                    "z": 0,
+                    "w": -0.013358300448537799
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "40",
+                  "name": "Mouse 5",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.007140159606933594,
+                    "y": -1.1168850660324097,
+                    "z": -3.795694351196289
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.958485133477158,
+                    "z": 0,
+                    "w": -0.28514250280707726
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "41",
+                  "name": "Mouse 6",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -2.3025689125061035,
+                    "y": -1.1168850660324097,
+                    "z": -3.8910632133483887
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.958485133477158,
+                    "z": 0,
+                    "w": -0.28514250280707726
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "58",
+                  "name": "Keyboard 7",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 3.1814231872558594,
+                    "y": -1.092711329460144,
+                    "z": -10.257722854614258
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9999107678655843,
+                    "z": 0,
+                    "w": -0.013358300448537799
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "59",
+                  "name": "Keyboard 8",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.7657985687255859,
+                    "y": -1.092711329460144,
+                    "z": -10.257722854614258
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9999107678655843,
+                    "z": 0,
+                    "w": -0.013358300448537799
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "60",
+                  "name": "Keyboard 9",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1.8060317039489746,
+                    "y": -1.092711329460144,
+                    "z": -10.307477951049805
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9999107678655843,
+                    "z": 0,
+                    "w": -0.013358300448537799
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "61",
+                  "name": "Keyboard 10",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1.976668357849121,
+                    "y": -1.092711329460144,
+                    "z": -8.409936904907227
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.0005919620056233511,
+                    "z": 0,
+                    "w": 0.9999998211860497
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "62",
+                  "name": "Keyboard 11",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.651331901550293,
+                    "y": -1.092711329460144,
+                    "z": -8.409936904907227
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.0005919620056233511,
+                    "z": 0,
+                    "w": 0.9999998211860497
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "63",
+                  "name": "Keyboard 12",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "262",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 3.1209888458251953,
+                    "y": -1.092711329460144,
+                    "z": -8.324604988098145
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.0005919620056233511,
+                    "z": 0,
+                    "w": 0.9999998211860497
+                  },
+                  "scale": {
+                    "x": 1.2000000476837158,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000476837158
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "64",
+                  "name": "Mouse 7",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -2.5525174140930176,
+                    "y": -1.1168850660324097,
+                    "z": -10.269596099853516
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.958485133477158,
+                    "z": 0,
+                    "w": -0.28514250280707726
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "65",
+                  "name": "Mouse 8",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.1792011260986328,
+                    "y": -1.1168850660324097,
+                    "z": -10.269596099853516
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.958485133477158,
+                    "z": 0,
+                    "w": -0.28514250280707726
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "66",
+                  "name": "Mouse 9",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 2.398235321044922,
+                    "y": -1.1168850660324097,
+                    "z": -10.269596099853516
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.958485133477158,
+                    "z": 0,
+                    "w": -0.28514250280707726
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "67",
+                  "name": "Mouse 9",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 3.857069969177246,
+                    "y": -1.1168850660324097,
+                    "z": -8.39805793762207
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.21364036071040732,
+                    "z": 0,
+                    "w": 0.9769123823905036
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "68",
+                  "name": "Mouse 10",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 1.5452556610107422,
+                    "y": -1.1168850660324097,
+                    "z": -8.39805793762207
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.21364036071040732,
+                    "z": 0,
+                    "w": 0.9769123823905036
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "69",
+                  "name": "Mouse 1",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "265",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1.336245059967041,
+                    "y": -1.1168850660324097,
+                    "z": -8.39805793762207
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.21364036071040732,
+                    "z": 0,
+                    "w": 0.9769123823905036
+                  },
+                  "scale": {
+                    "x": 1.2000000467169707,
+                    "y": 1.2000000476837158,
+                    "z": 1.2000000467169707
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "70",
+                  "name": "PC7",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "264",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 2.9990415573120117,
+                    "y": -1.1007161140441895,
+                    "z": -8.868865966796875
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.05758587955500775,
+                    "z": 0,
+                    "w": 0.9983405560156308
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "71",
+                  "name": "PC8",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "264",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.6991825103759766,
+                    "y": -1.1007161140441895,
+                    "z": -8.868865966796875
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.015399407265316785,
+                    "z": 0,
+                    "w": 0.9998814244302977
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "72",
+                  "name": "PC9",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "264",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1.9834990501403809,
+                    "y": -1.1007161140441895,
+                    "z": -8.868865966796875
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.01366427612582208,
+                    "z": 0,
+                    "w": 0.9999066398670633
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "73",
+                  "name": "PC10",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "264",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1.7954092025756836,
+                    "y": -1.1007161140441895,
+                    "z": -9.759550094604492
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9931996506998014,
+                    "z": 0,
+                    "w": -0.11642354700836789
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "74",
+                  "name": "PC11",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "264",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.8653373718261719,
+                    "y": -1.1007161140441895,
+                    "z": -9.6961088180542
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9996994282093418,
+                    "z": 0,
+                    "w": -0.024516545593910245
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "75",
+                  "name": "PC12",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "264",
+                        "animationId": null,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 3.040581703186035,
+                    "y": -1.1007161140441895,
+                    "z": -9.6961088180542
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9996994282093418,
+                    "z": 0,
+                    "w": -0.024516545593910245
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                }
+              ],
+              "components": [],
+              "position": {
+                "x": 7.620522499084473,
+                "y": 1.9344158172607422,
+                "z": -2.172215461730957
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "76",
+              "name": "Shelf",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "297",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                },
+                {
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": true,
+                    "width": 3,
+                    "height": 1.8,
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null,
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  "id": "1"
+                }
+              ],
+              "position": {
+                "x": 17.837671279907227,
+                "y": -0.047789573669433594,
+                "z": -13.16173267364502
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.6000000238418579,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "77",
+              "name": "Shelf2",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "246",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                },
+                {
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": true,
+                    "width": 3,
+                    "height": 1.8,
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null,
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  "id": "1"
+                }
+              ],
+              "position": {
+                "x": 14.515538215637207,
+                "y": 0.02389049530029297,
+                "z": -13.185786247253418
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.6000000238418579,
+                "y": 0.4000000059604645,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "78",
+              "name": "Folder",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "266",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 13.826143264770508,
+                "y": 1.8040971755981445,
+                "z": -13.26789379119873
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.12855088943404097,
+                "z": 0,
+                "w": 0.9917029151115104
+              },
+              "scale": {
+                "x": 1.3000000438098662,
+                "y": 1.2999999523162842,
+                "z": 1.3000000438098662
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "79",
+              "name": "Folder2",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "266",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 14.685582160949707,
+                "y": 1.8040971755981445,
+                "z": -13.26789379119873
+              },
+              "orientation": {
+                "x": 0,
+                "y": -0.10591253612530523,
+                "z": 0,
+                "w": 0.994375444720233
+              },
+              "scale": {
+                "x": 1.2999999736762324,
+                "y": 1.2999999523162842,
+                "z": 1.2999999736762324
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "80",
+              "name": "Paper",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "263",
+                    "animationId": null,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 11.584506034851074,
+                "y": 0.8290958404541016,
+                "z": -5.585321426391602
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.9796278185514864,
+                "z": 0,
+                "w": -0.2008216395771376
+              },
+              "scale": {
+                "x": 0.9999999881046778,
+                "y": 1,
+                "z": 0.9999999881046778
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "82",
+              "name": "Table Ronde",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "249",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                },
+                {
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": true,
+                    "width": 3,
+                    "height": 3,
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null,
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  "id": "1"
+                }
+              ],
+              "position": {
+                "x": 16.484079360961914,
+                "y": 0.07153606414794922,
+                "z": -5.279850959777832
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "87",
+              "name": "Paper 2",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "263",
+                    "animationId": null,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 16.01693344116211,
+                "y": 1.0632009506225586,
+                "z": -5.585321426391602
+              },
+              "orientation": {
+                "x": 0,
+                "y": -0.8044810714467092,
+                "z": 0,
+                "w": 0.5939782983664003
+              },
+              "scale": {
+                "x": 0.9999999436101794,
+                "y": 1,
+                "z": 0.9999999436101794
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "88",
+              "name": "Paper 3",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "263",
+                    "animationId": null,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 16.246416091918945,
+                "y": 1.0632009506225586,
+                "z": -4.857593536376953
+              },
+              "orientation": {
+                "x": 0,
+                "y": -0.6585138967821434,
+                "z": 0,
+                "w": 0.7525685652833835
+              },
+              "scale": {
+                "x": 0.999999997403688,
+                "y": 1,
+                "z": 0.999999997403688
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "92",
+          "name": "Enemies",
+          "children": [
+            {
+              "id": "93",
+              "name": "1",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 2,
+                "y": 0,
+                "z": -2
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "94",
+              "name": "2",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 5,
+                "y": 0,
+                "z": -1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "95",
+              "name": "3",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 2
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "96",
+              "name": "4",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 1,
+                "y": 0,
+                "z": 5
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "97",
+              "name": "5",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": -3,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "98",
+              "name": "6",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": -10,
+                "y": 0,
+                "z": 1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            }
+          ],
+          "components": [
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "EnemySpawnerBehavior",
+                "propertyValues": {
+                  "minEnemies": {
+                    "type": "number",
+                    "value": 2
+                  },
+                  "maxEnemies": {
+                    "type": "number",
+                    "value": 5
+                  }
+                }
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 13,
+            "y": 0,
+            "z": -9
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefabId": null
+    }
+  ],
+  "formatVersion": 1
+}

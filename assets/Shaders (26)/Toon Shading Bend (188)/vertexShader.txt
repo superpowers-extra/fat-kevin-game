@@ -1,0 +1,64 @@
+varying vec2 vUv;
+varying vec3 worldNormal;
+uniform vec2 bendDirection;
+uniform float time;
+attribute float rnd;
+
+THREE_ShaderChunk(common)
+THREE_ShaderChunk(lights_lambert_pars_vertex)
+THREE_ShaderChunk(skinning_pars_vertex)
+THREE_ShaderChunk(shadowmap_pars_vertex)
+
+varying vec4 vColor;
+
+
+void main() {
+  vUv = uv;
+  
+  // Hack for auto-repeating wall textures
+  // Walls have their V component > 1
+  
+  THREE_ShaderChunk(beginnormal_vertex)
+  THREE_ShaderChunk(skinbase_vertex)
+  THREE_ShaderChunk(skinnormal_vertex)
+    
+  THREE_ShaderChunk(begin_vertex)
+  THREE_ShaderChunk(skinning_vertex)
+  
+  #ifdef USE_SKINNING
+
+	  vec4 mPosition = modelMatrix * skinned;
+
+  #elif defined( USE_MORPHTARGETS )
+
+    vec4 mPosition = modelMatrix * vec4( morphed, 1.0 );
+
+  #else
+
+    vec4 mPosition = modelMatrix * vec4( position, 1.0 );
+
+  #endif
+    
+  // bending
+    float factor = position.y * vUv.y;
+    if ( floor(vUv.y) > 0.0 ) factor = position.y / floor(vUv.y);
+    factor *= factor;
+    mPosition += vec4(bendDirection.x, 0.0, bendDirection.y, 0.0) * ( ( sin( time ) * sin( 1.53280 * time ) * factor ) *.7 + .3 );
+    
+    gl_Position = projectionMatrix * viewMatrix * mPosition;
+    
+  vec4 n;
+  #ifdef USE_SKINNING
+  n = vec4(objectNormal, 0.0);
+  #else
+  n = vec4(normal, 0.0);
+  #endif
+  n = modelMatrix * n;
+  worldNormal = normalize( n ).xyz;
+  
+  THREE_ShaderChunk(worldpos_vertex)
+  THREE_ShaderChunk(shadowmap_vertex)
+  
+//   vColor = vec4(1.0, 1.0, 1.0, 1.0);
+//   vColor.xyz = n.xyz * 0.5 + 0.5;
+}

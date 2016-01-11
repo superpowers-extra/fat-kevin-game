@@ -1,0 +1,573 @@
+{
+  "behaviors": {
+    "CameraBehavior": {
+      "scriptId": "10",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "cameraOffset",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "targetPosition",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "KevinBehavior": {
+      "scriptId": "11",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "angle",
+          "type": "number"
+        },
+        {
+          "name": "targetAngle",
+          "type": "number"
+        },
+        {
+          "name": "lightPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "attackDamage",
+          "type": "number"
+        },
+        {
+          "name": "moveSpeed",
+          "type": "number"
+        },
+        {
+          "name": "jumpSpeed",
+          "type": "number"
+        },
+        {
+          "name": "rollSpeed",
+          "type": "number"
+        },
+        {
+          "name": "rollCooldown",
+          "type": "number"
+        },
+        {
+          "name": "isInteracting",
+          "type": "boolean"
+        },
+        {
+          "name": "isChangingRoom",
+          "type": "boolean"
+        },
+        {
+          "name": "footstepsPlaying",
+          "type": "boolean"
+        }
+      ]
+    },
+    "DialogBehavior": {
+      "scriptId": "50",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "selectedChoice",
+          "type": "number"
+        },
+        {
+          "name": "choiceOffset",
+          "type": "number"
+        },
+        {
+          "name": "textWritten",
+          "type": "string"
+        },
+        {
+          "name": "textToWrite",
+          "type": "string"
+        }
+      ]
+    },
+    "InteractiveBehavior": {
+      "scriptId": "59",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "heightHeadIcon",
+          "type": "number"
+        }
+      ]
+    },
+    "InventoryBehavior": {
+      "scriptId": "61",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "SimpleDialogNPCBehavior": {
+      "scriptId": "47",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": [
+        {
+          "name": "text",
+          "type": "string"
+        }
+      ]
+    },
+    "BasicEnemyBehavior": {
+      "scriptId": "69",
+      "line": 10,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isBoss",
+          "type": "boolean"
+        },
+        {
+          "name": "oldPosition",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "velocity",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "lookAtKevin",
+          "type": "boolean"
+        },
+        {
+          "name": "health",
+          "type": "number"
+        },
+        {
+          "name": "maxHealth",
+          "type": "number"
+        },
+        {
+          "name": "healthOpacity",
+          "type": "number"
+        },
+        {
+          "name": "hitTimer",
+          "type": "number"
+        },
+        {
+          "name": "attackDamage",
+          "type": "number"
+        },
+        {
+          "name": "chaseRange",
+          "type": "number"
+        },
+        {
+          "name": "stopChaseRange",
+          "type": "number"
+        },
+        {
+          "name": "triggerAttackRange",
+          "type": "number"
+        },
+        {
+          "name": "attackRange",
+          "type": "number"
+        },
+        {
+          "name": "attackCooldown",
+          "type": "number"
+        }
+      ]
+    },
+    "MissionSpawnsBehavior": {
+      "scriptId": "72",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ShopNPCBehavior": {
+      "scriptId": "87",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": [
+        {
+          "name": "item",
+          "type": "string"
+        },
+        {
+          "name": "price",
+          "type": "number"
+        }
+      ]
+    },
+    "CardsBinderBehavior": {
+      "scriptId": "94",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "RoomChangerBehavior": {
+      "scriptId": "106",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "roomName",
+          "type": "string"
+        },
+        {
+          "name": "spawnName",
+          "type": "string"
+        },
+        {
+          "name": "activationRange",
+          "type": "number"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        }
+      ]
+    },
+    "BossEnemyBehavior": {
+      "scriptId": "135",
+      "parentBehavior": "BasicEnemyBehavior",
+      "properties": [
+        {
+          "name": "isBoss",
+          "type": "boolean"
+        },
+        {
+          "name": "maxHealth",
+          "type": "number"
+        },
+        {
+          "name": "currentPickUpPoint",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "hasThrown",
+          "type": "boolean"
+        }
+      ]
+    },
+    "MainMenuBehavior": {
+      "scriptId": "152",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "entryIndex",
+          "type": "number"
+        },
+        {
+          "name": "languageIndex",
+          "type": "number"
+        }
+      ]
+    },
+    "GamepadInputBehavior": {
+      "scriptId": "76",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "upJustPressed",
+          "type": "boolean"
+        },
+        {
+          "name": "downJustPressed",
+          "type": "boolean"
+        },
+        {
+          "name": "leftJustPressed",
+          "type": "boolean"
+        },
+        {
+          "name": "rightJustPressed",
+          "type": "boolean"
+        },
+        {
+          "name": "upJustRepeated",
+          "type": "boolean"
+        },
+        {
+          "name": "downJustRepeated",
+          "type": "boolean"
+        },
+        {
+          "name": "leftJustRepeated",
+          "type": "boolean"
+        },
+        {
+          "name": "rightJustRepeated",
+          "type": "boolean"
+        },
+        {
+          "name": "upTimer",
+          "type": "number"
+        },
+        {
+          "name": "downTimer",
+          "type": "number"
+        },
+        {
+          "name": "leftTimer",
+          "type": "number"
+        },
+        {
+          "name": "rightTimer",
+          "type": "number"
+        }
+      ]
+    },
+    "MarbleBehavior": {
+      "scriptId": "129",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "pickedUpTimer",
+          "type": "number"
+        }
+      ]
+    },
+    "MissionBehavior": {
+      "scriptId": "210",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "activated",
+          "type": "boolean"
+        }
+      ]
+    },
+    "JuiceGumEventBehavior": {
+      "scriptId": "243",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "JuiceGumBoyBehavior": {
+      "scriptId": "244",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "BeatJuiceEventBehavior": {
+      "scriptId": "253",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "BeatJuiceBoyBehavior": {
+      "scriptId": "254",
+      "parentBehavior": "BasicEnemyBehavior",
+      "properties": []
+    },
+    "JuiceBoyBehavior": {
+      "scriptId": "254",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "BirthdayNPCBehavior": {
+      "scriptId": "272",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "QuestionBlockerNPCBehavior": {
+      "scriptId": "277",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "MonsterWhinningEventBehavior": {
+      "scriptId": "280",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MonsterGaetanEventBehavior": {
+      "scriptId": "284",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MonsterGaetanNPCBehavior": {
+      "scriptId": "283",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "MonsterTeacherNPCBehavior": {
+      "scriptId": "289",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "MonsterTeacherEventBehavior": {
+      "scriptId": "290",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MonsterWhiningNPCBehavior": {
+      "scriptId": "274",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "PlaygroundGaetanBirthdayEventBehavior": {
+      "scriptId": "296",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "RightCorridorCleaBirthdayEventBehavior": {
+      "scriptId": "300",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "DealerEventBehavior": {
+      "scriptId": "301",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "DealerBoyBehavior": {
+      "scriptId": "302",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": [
+        {
+          "name": "price",
+          "type": "number"
+        }
+      ]
+    },
+    "LaboratoryBeatriceBirthdayEventBehavior": {
+      "scriptId": "308",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "WateringCanEventBehavior": {
+      "scriptId": "313",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "WateringCanBehavior": {
+      "scriptId": "315",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "DoorLockBehavior": {
+      "scriptId": "321",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "GrannyTeacherEventBehavior": {
+      "scriptId": "324",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "GrannyTeacherBehavior": {
+      "scriptId": "325",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "PickupKeyBehavior": {
+      "scriptId": "329",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "JeremyEventBehavior": {
+      "scriptId": "332",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "EnemySpawnerBehavior": {
+      "scriptId": "340",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "minEnemies",
+          "type": "number"
+        },
+        {
+          "name": "maxEnemies",
+          "type": "number"
+        }
+      ]
+    },
+    "SecretaryEventBehavior": {
+      "scriptId": "342",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "SecretaryBehavior": {
+      "scriptId": "346",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isGrowling",
+          "type": "boolean"
+        }
+      ]
+    },
+    "SecretaryZoneActivationBehavior": {
+      "scriptId": "347",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PrincipalBehavior": {
+      "scriptId": "351",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PrincipalEndEventBehavior": {
+      "scriptId": "360",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PickCardBehavior": {
+      "scriptId": "363",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "KevinHealthBehavior": {
+      "scriptId": "38",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "IconBehavior": {
+      "scriptId": "108",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "up",
+          "type": "boolean"
+        },
+        {
+          "name": "heightHeadIcon",
+          "type": "number"
+        }
+      ]
+    },
+    "BallBehavior": {
+      "scriptId": "156",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MagalieEventBehavior": {
+      "scriptId": "379",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MagalieBehavior": {
+      "scriptId": "380",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "FlowerBehavior": {
+      "scriptId": "385",
+      "parentBehavior": "InteractiveBehavior",
+      "properties": []
+    },
+    "CreditsMenuBehavior": {
+      "scriptId": "392",
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

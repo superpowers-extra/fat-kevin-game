@@ -1,0 +1,27 @@
+{
+  "unitRatio": 100,
+  "upAxisMatrix": null,
+  "attributes": [
+    "position",
+    "uv",
+    "normal"
+  ],
+  "bones": null,
+  "maps": [
+    "map",
+    "alpha",
+    "normal"
+  ],
+  "animations": [],
+  "opacity": null,
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": "alpha",
+    "normal": "normal"
+  },
+  "filtering": "pixelated",
+  "wrapping": "clampToEdge",
+  "formatVersion": 2
+}

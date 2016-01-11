@@ -1,0 +1,313 @@
+{
+  "nodes": [
+    {
+      "id": "9",
+      "name": "Root",
+      "children": [
+        {
+          "id": "2",
+          "name": "Kevin",
+          "children": [
+            {
+              "id": "0",
+              "name": "Model",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "78",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "6",
+              "name": "Light",
+              "children": [],
+              "components": [
+                {
+                  "type": "Light",
+                  "config": {
+                    "type": "directional",
+                    "color": "ffffff",
+                    "intensity": 1.04,
+                    "distance": 0,
+                    "angle": 60,
+                    "target": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "castShadow": true,
+                    "shadowMapSize": {
+                      "width": 2048,
+                      "height": 2048
+                    },
+                    "shadowBias": -0.002,
+                    "shadowDarkness": 0.5,
+                    "shadowCameraNearPlane": 0.1,
+                    "shadowCameraFarPlane": 20,
+                    "shadowCameraFov": 50,
+                    "shadowCameraSize": {
+                      "top": 20,
+                      "bottom": -20,
+                      "left": -20,
+                      "right": 20
+                    }
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -1.543837547302246,
+                "y": 6.647758960723877,
+                "z": 4.306914806365967
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            }
+          ],
+          "components": [
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "KevinBehavior",
+                "propertyValues": {}
+              },
+              "id": "0"
+            },
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "type": "box",
+                "movable": true,
+                "width": 0.8,
+                "height": 0.8,
+                "tileMapAssetId": null,
+                "tileSetPropertyName": null,
+                "layersIndex": null,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "3",
+          "name": "Camera",
+          "children": [
+            {
+              "id": "8",
+              "name": "Ground",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": "103",
+                    "animationId": null,
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "basic",
+                    "shaderAssetId": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": -0.9847886562347412,
+                "z": -10.921546936035156
+              },
+              "orientation": {
+                "x": -0.4383711225091965,
+                "y": 0,
+                "z": 0,
+                "w": 0.8987940536865107
+              },
+              "scale": {
+                "x": 1,
+                "y": 0.999999903396726,
+                "z": 0.999999903396726
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            }
+          ],
+          "components": [
+            {
+              "type": "Camera",
+              "config": {
+                "mode": "perspective",
+                "fov": 45,
+                "orthographicScale": 10,
+                "viewport": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1,
+                  "height": 1
+                },
+                "depth": 0,
+                "nearClippingPlane": 0.1,
+                "farClippingPlane": 100
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "CameraBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "GamepadInputBehavior",
+                "propertyValues": {}
+              },
+              "id": "2"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 7,
+            "z": 8
+          },
+          "orientation": {
+            "x": -0.32556816645908776,
+            "y": 0,
+            "z": 0,
+            "w": 0.9455185815315685
+          },
+          "scale": {
+            "x": 1,
+            "y": 1.000000034031211,
+            "z": 1.000000034031211
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "5",
+          "name": "HUD",
+          "children": [],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 500,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": {
+            "sceneAssetId": "36"
+          }
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefabId": null
+    }
+  ],
+  "formatVersion": 1
+}

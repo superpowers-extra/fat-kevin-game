@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "2",
+      "name": "Prefab Watering Can",
+      "children": [
+        {
+          "id": "3",
+          "name": "Watering Can",
+          "children": [
+            {
+              "id": "0",
+              "name": "Model",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "309",
+                    "animationId": null,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0.653281480122644,
+                "y": 0.27059804640113994,
+                "z": 0.6532814801226442,
+                "w": -0.2705980464011398
+              },
+              "scale": {
+                "x": 1,
+                "y": 0.999999982885729,
+                "z": 0.999999982885729
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0.9238795325112867,
+            "w": 0.38268343236508984
+          },
+          "scale": {
+            "x": 0.9999999403953552,
+            "y": 0.9999999403953552,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        }
+      ],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "WateringCanBehavior",
+            "propertyValues": {
+              "heightHeadIcon": {
+                "type": "number",
+                "value": 1
+              }
+            }
+          },
+          "id": "0"
+        },
+        {
+          "type": "ArcadeBody2D",
+          "config": {
+            "type": "box",
+            "movable": true,
+            "width": 0.5,
+            "height": 0.25,
+            "offsetX": 0.1,
+            "offsetY": 0,
+            "tileMapAssetId": "",
+            "tileSetPropertyName": null,
+            "layersIndex": null
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefabId": null
+    }
+  ],
+  "formatVersion": 1
+}

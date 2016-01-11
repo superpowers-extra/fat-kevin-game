@@ -1,0 +1,45 @@
+varying vec2 vUv;
+varying vec3 worldNormal;
+
+THREE_ShaderChunk(common)
+THREE_ShaderChunk(lights_lambert_pars_vertex)
+THREE_ShaderChunk(skinning_pars_vertex)
+THREE_ShaderChunk(shadowmap_pars_vertex)
+
+varying vec4 vColor;
+
+
+void main() {
+  vUv = uv;
+  
+  // Hack for auto-repeating wall textures
+  // Walls have their V component > 1
+  if ( vUv.y > 1.0 ){
+    vUv.x *= sqrt(  modelMatrix[0][0]*modelMatrix[0][0] +
+                    modelMatrix[0][1]*modelMatrix[0][1] +
+                    modelMatrix[0][2]*modelMatrix[0][2] ) ;
+  }
+  
+  THREE_ShaderChunk(beginnormal_vertex)
+  THREE_ShaderChunk(skinbase_vertex)
+  THREE_ShaderChunk(skinnormal_vertex)
+    
+  THREE_ShaderChunk(begin_vertex)
+  THREE_ShaderChunk(skinning_vertex)
+  THREE_ShaderChunk(project_vertex)
+    
+  vec4 n;
+  #ifdef USE_SKINNING
+  n = vec4(objectNormal, 0.0);
+  #else
+  n = vec4(normal, 0.0);
+  #endif
+  n = modelMatrix * n;
+  worldNormal = normalize( n ).xyz;
+  
+  THREE_ShaderChunk(worldpos_vertex)
+  THREE_ShaderChunk(shadowmap_vertex)
+  
+//   vColor = vec4(1.0, 1.0, 1.0, 1.0);
+//   vColor.xyz = n.xyz * 0.5 + 0.5;
+}

@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Enemy",
+      "children": [
+        {
+          "id": "4",
+          "name": "Health Pivot",
+          "children": [],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": {
+            "sceneAssetId": "268"
+          }
+        }
+      ],
+      "components": [
+        {
+          "type": "ArcadeBody2D",
+          "config": {
+            "type": "box",
+            "movable": true,
+            "width": 0.8,
+            "height": 0.8,
+            "offsetX": 0,
+            "offsetY": 0,
+            "tileMapAssetId": "",
+            "tileSetPropertyName": null,
+            "layersIndex": null
+          },
+          "id": "0"
+        },
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "400",
+            "animationId": "0",
+            "castShadow": true,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "shader",
+            "shaderAssetId": "120"
+          },
+          "id": "1"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "BasicEnemyBehavior",
+            "propertyValues": {}
+          },
+          "id": "2"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefabId": null
+    }
+  ],
+  "formatVersion": 1
+}

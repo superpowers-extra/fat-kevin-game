@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Prefab",
+      "children": [],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "33",
+            "animationId": "5",
+            "castShadow": true,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "shader",
+            "shaderAssetId": "120"
+          },
+          "id": "0"
+        },
+        {
+          "type": "ArcadeBody2D",
+          "config": {
+            "type": "box",
+            "movable": true,
+            "width": 1,
+            "height": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "tileMapAssetId": "",
+            "tileSetPropertyName": null,
+            "layersIndex": null
+          },
+          "id": "4"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "MonsterGaetanNPCBehavior",
+            "propertyValues": {}
+          },
+          "id": "5"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 1,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefabId": null
+    }
+  ],
+  "formatVersion": 1
+}

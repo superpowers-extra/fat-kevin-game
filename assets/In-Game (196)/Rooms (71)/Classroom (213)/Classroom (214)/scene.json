@@ -1,0 +1,1899 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Map",
+      "children": [],
+      "components": [
+        {
+          "type": "TileMapRenderer",
+          "config": {
+            "tileMapAssetId": "216",
+            "tileSetAssetId": null,
+            "castShadow": false,
+            "receiveShadow": true,
+            "materialType": "shader",
+            "shaderAssetId": "120"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefabId": null
+    },
+    {
+      "id": "53",
+      "name": "Root",
+      "children": [
+        {
+          "id": "0",
+          "name": "Markers",
+          "children": [
+            {
+              "id": "2",
+              "name": "Left Corridor Door",
+              "children": [],
+              "components": [
+                {
+                  "type": "Behavior",
+                  "config": {
+                    "behaviorName": "RoomChangerBehavior",
+                    "propertyValues": {
+                      "roomName": {
+                        "type": "string",
+                        "value": "Left Corridor"
+                      },
+                      "spawnName": {
+                        "type": "string",
+                        "value": "Classroom Spawn"
+                      }
+                    }
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 5,
+                "y": 0,
+                "z": -1
+              },
+              "orientation": {
+                "x": 0,
+                "y": -0.7071067811865475,
+                "z": 0,
+                "w": 0.7071067811865476
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "3",
+              "name": "Left Corridor Spawn",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 5,
+                "y": 0,
+                "z": -2
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.7071067811865475,
+                "z": 0,
+                "w": 0.7071067811865476
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "46",
+          "name": "Walls",
+          "children": [
+            {
+              "id": "4",
+              "name": "Wall",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "110",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 10.996000289916992,
+                "y": 14.472000122070312,
+                "z": 1
+              },
+              "orientation": {
+                "x": 0.7071067811865475,
+                "y": 0,
+                "z": 0,
+                "w": 0.7071067811865476
+              },
+              "scale": {
+                "x": 8.997952461242676,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "6",
+              "name": "Wall 3",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "110",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 1.5985479354858398,
+                "y": 8.469780921936035,
+                "z": 1
+              },
+              "orientation": {
+                "x": 0.5,
+                "y": -0.5,
+                "z": -0.4999999999999999,
+                "w": 0.5000000000000001
+              },
+              "scale": {
+                "x": 6.458584785461426,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "7",
+              "name": "Wall 4",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "110",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 20.493408203125,
+                "y": 8.469780921936035,
+                "z": 1
+              },
+              "orientation": {
+                "x": 0.5,
+                "y": -0.5,
+                "z": -0.4999999999999999,
+                "w": 0.5000000000000001
+              },
+              "scale": {
+                "x": 6.458584785461426,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": -0.7071067811865475,
+            "y": 0,
+            "z": 0,
+            "w": 0.7071067811865476
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "43",
+          "name": "Props",
+          "children": [
+            {
+              "id": "44",
+              "name": "Tables",
+              "children": [
+                {
+                  "id": "11",
+                  "name": "Table 2",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 2.7,
+                        "height": 1.4,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "2"
+                    }
+                  ],
+                  "position": {
+                    "x": 7.665040016174316,
+                    "y": 0,
+                    "z": -8.480053901672363
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.009583045185208448,
+                    "z": 0,
+                    "w": 0.9999540884684274
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "12",
+                  "name": "Table 3",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 2.7,
+                        "height": 1.4,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 7.782293319702148,
+                    "y": 0,
+                    "z": -5.101686954498291
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.016530483266066827,
+                    "z": 0,
+                    "w": 0.999863361918031
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "13",
+                  "name": "Table 4",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 2.7,
+                        "height": 1.4,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 11.098555564880371,
+                    "y": 0,
+                    "z": -8.554293632507324
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.006721131996828288,
+                    "z": 0,
+                    "w": 0.9999774095844667
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "14",
+                  "name": "Table 5",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 2.7,
+                        "height": 1.4,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 11.111735343933105,
+                    "y": 0,
+                    "z": -5.008071422576904
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.009190622482807996,
+                    "z": 0,
+                    "w": 0.9999577692174572
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "15",
+                  "name": "Table 6",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 2.7,
+                        "height": 1.4,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 14.787076950073242,
+                    "y": 0,
+                    "z": -8.54417610168457
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.011353658231411679,
+                    "z": 0,
+                    "w": 0.9999355504009612
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "16",
+                  "name": "Table 7",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 2.7,
+                        "height": 1.4,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 14.509063720703125,
+                    "y": 0,
+                    "z": -4.985655784606934
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.014302164131039423,
+                    "z": 0,
+                    "w": 0.9998977131982704
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "17",
+                  "name": "Table 8",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": true,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 2.7,
+                        "height": 1.4,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0.1
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 17.92868423461914,
+                    "y": 0,
+                    "z": -5.190834999084473
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.008459866978287527,
+                    "z": 0,
+                    "w": 0.9999642216719292
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "18",
+                  "name": "Table 9",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "170",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 2.7,
+                        "height": 1.4,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 18.178752899169922,
+                    "y": 0,
+                    "z": -8.523821830749512
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.0052370015431112875,
+                    "z": 0,
+                    "w": 0.999986290837731
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                }
+              ],
+              "components": [],
+              "position": {
+                "x": 0,
+                "y": 1.0062111616134644,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "45",
+              "name": "Chairs",
+              "children": [
+                {
+                  "id": "24",
+                  "name": "Chair 2",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 1,
+                        "height": 1,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 7.714865684509277,
+                    "y": 0.021916335448622704,
+                    "z": -4.339529991149902
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "w": 6.123234262925839e-17
+                  },
+                  "scale": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "25",
+                  "name": "Chair 3",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 1,
+                        "height": 1,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 11.071825981140137,
+                    "y": 0.021916335448622704,
+                    "z": -4.339529991149902
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.998025897677165,
+                    "z": 0,
+                    "w": -0.06280365158557241
+                  },
+                  "scale": {
+                    "x": 0.49999999112194926,
+                    "y": 0.5,
+                    "z": 0.49999999112194926
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "26",
+                  "name": "Chair 4",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 1,
+                        "height": 1,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 14.61193561553955,
+                    "y": 0.021916335448622704,
+                    "z": -4.352936744689941
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9990674379266697,
+                    "z": 0,
+                    "w": 0.04317698110399554
+                  },
+                  "scale": {
+                    "x": 0.49999999722779265,
+                    "y": 0.5,
+                    "z": 0.49999999722779265
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "27",
+                  "name": "Chair 5",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": true,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 17.709226608276367,
+                    "y": 1.3809614181518555,
+                    "z": -4.764573097229004
+                  },
+                  "orientation": {
+                    "x": 0.99924296542868,
+                    "y": -0.004107627015921881,
+                    "z": -0.03760975921237134,
+                    "w": 0.009062289604769323
+                  },
+                  "scale": {
+                    "x": 0.49999999097125714,
+                    "y": 0.4999999943781524,
+                    "z": 0.5000000059249736
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "28",
+                  "name": "Chair 6",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 1,
+                        "height": 1,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 17.746732711791992,
+                    "y": 0.021916335448622704,
+                    "z": -7.427234649658203
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9995122256368555,
+                    "z": 0,
+                    "w": -0.03123011307422696
+                  },
+                  "scale": {
+                    "x": 0.5000000091512352,
+                    "y": 0.5,
+                    "z": 0.5000000091512352
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "29",
+                  "name": "Chair 7",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 1,
+                        "height": 1,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 14.941868782043457,
+                    "y": 0.021916335448622704,
+                    "z": -7.427234649658203
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "w": 6.123234262925839e-17
+                  },
+                  "scale": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "30",
+                  "name": "Chair 8",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 1,
+                        "height": 1,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 11.055338859558105,
+                    "y": 0.021916335448622704,
+                    "z": -7.792644500732422
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "w": 6.123234262925839e-17
+                  },
+                  "scale": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "31",
+                  "name": "Chair 9",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    },
+                    {
+                      "type": "ArcadeBody2D",
+                      "config": {
+                        "type": "box",
+                        "movable": false,
+                        "width": 1,
+                        "height": 1,
+                        "tileMapAssetId": null,
+                        "tileSetPropertyName": null,
+                        "layersIndex": null,
+                        "offset": {
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 7.582041263580322,
+                    "y": 0.021916335448622704,
+                    "z": -7.538991928100586
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0.9951925202401004,
+                    "z": 0,
+                    "w": 0.09793801911137505
+                  },
+                  "scale": {
+                    "x": 0.5000000078532459,
+                    "y": 0.5,
+                    "z": 0.5000000078532459
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                },
+                {
+                  "id": "34",
+                  "name": "Chair 11",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "ModelRenderer",
+                      "config": {
+                        "modelAssetId": "250",
+                        "animationId": null,
+                        "castShadow": true,
+                        "receiveShadow": true,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "shader",
+                        "shaderAssetId": "120"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 17.779172897338867,
+                    "y": 0.01845206879079342,
+                    "z": -13.060890197753906
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": -0.25546082304466866,
+                    "z": 0,
+                    "w": 0.9668194084238776
+                  },
+                  "scale": {
+                    "x": 0.6000000243649779,
+                    "y": 0.6000000238418579,
+                    "z": 0.6000000243649779
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefabId": null
+                }
+              ],
+              "components": [],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "21",
+              "name": "Shelf",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "246",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                },
+                {
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": false,
+                    "width": 1,
+                    "height": 3,
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null,
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  "id": "1"
+                }
+              ],
+              "position": {
+                "x": 2.6379308700561523,
+                "y": 0,
+                "z": -10.769109725952148
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.7071067811865475,
+                "z": 0,
+                "w": 0.7071067811865476
+              },
+              "scale": {
+                "x": 0.6000000238418579,
+                "y": 0.6000000238418579,
+                "z": 0.6000000238418579
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "33",
+              "name": "Desk",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "64",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                },
+                {
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": false,
+                    "width": 3,
+                    "height": 3,
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null,
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  "id": "1"
+                }
+              ],
+              "position": {
+                "x": 17.16078758239746,
+                "y": 0.2496734857559204,
+                "z": -11.704849243164062
+              },
+              "orientation": {
+                "x": 0,
+                "y": -0.25543240746051527,
+                "z": 0,
+                "w": 0.9668269143109841
+              },
+              "scale": {
+                "x": 0.9999999944235811,
+                "y": 1,
+                "z": 0.9999999944235811
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "35",
+              "name": "Tableau",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "92",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 10.189681053161621,
+                "y": 0.3414306640625,
+                "z": -13.866430282592773
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "36",
+              "name": "Paper Pile",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "263",
+                    "animationId": null,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 16.45597267150879,
+                "y": 1.173923134803772,
+                "z": -12.041533470153809
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.8496068222699233,
+                "z": 0,
+                "w": 0.5274165774319355
+              },
+              "scale": {
+                "x": 0.9999999325803066,
+                "y": 1,
+                "z": 0.9999999325803066
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "37",
+              "name": "Paper Pile 2",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "263",
+                    "animationId": null,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 16.71292495727539,
+                "y": 1.173923134803772,
+                "z": -11.68870735168457
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.9477140171593096,
+                "z": 0,
+                "w": 0.3191208877586147
+              },
+              "scale": {
+                "x": 0.9999999987858335,
+                "y": 1,
+                "z": 0.9999999987858335
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "38",
+              "name": "Window 1",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "269",
+                    "animationId": null,
+                    "castShadow": false,
+                    "receiveShadow": true,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 20.030681610107422,
+                "y": -0.07934974133968353,
+                "z": -9.828877449035645
+              },
+              "orientation": {
+                "x": 0,
+                "y": -0.7071067811865475,
+                "z": 0,
+                "w": 0.7071067811865476
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "39",
+              "name": "Window 2",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "269",
+                    "animationId": null,
+                    "castShadow": false,
+                    "receiveShadow": true,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 20.030681610107422,
+                "y": -0.07934974133968353,
+                "z": -6.071398735046387
+              },
+              "orientation": {
+                "x": 0,
+                "y": -0.7071067811865475,
+                "z": 0,
+                "w": 0.7071067811865476
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "42",
+              "name": "Shelf 2",
+              "children": [],
+              "components": [
+                {
+                  "type": "ModelRenderer",
+                  "config": {
+                    "modelAssetId": "246",
+                    "animationId": null,
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "shader",
+                    "shaderAssetId": "120"
+                  },
+                  "id": "0"
+                },
+                {
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": false,
+                    "width": 1,
+                    "height": 3,
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null,
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  "id": "1"
+                }
+              ],
+              "position": {
+                "x": 2.622582197189331,
+                "y": 0,
+                "z": -6.8556928634643555
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0.7071067811865475,
+                "z": 0,
+                "w": 0.7071067811865476
+              },
+              "scale": {
+                "x": 0.6000000238418579,
+                "y": 0.6000000238418579,
+                "z": 0.6000000238418579
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "47",
+          "name": "Teacher",
+          "children": [],
+          "components": [
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "GrannyTeacherEventBehavior",
+                "propertyValues": {}
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 13.427000045776367,
+            "y": 0,
+            "z": -12.224162101745605
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        },
+        {
+          "id": "48",
+          "name": "Enemies",
+          "children": [
+            {
+              "id": "49",
+              "name": "1",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "50",
+              "name": "2",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 5,
+                "y": 0,
+                "z": 9
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "51",
+              "name": "3",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 13,
+                "y": 0,
+                "z": 9
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            },
+            {
+              "id": "52",
+              "name": "4",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 4
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefabId": null
+            }
+          ],
+          "components": [
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "EnemySpawnerBehavior",
+                "propertyValues": {
+                  "minEnemies": {
+                    "type": "number",
+                    "value": 3
+                  },
+                  "maxEnemies": {
+                    "type": "number",
+                    "value": 4
+                  }
+                }
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": -12
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefabId": null
+    }
+  ],
+  "formatVersion": 1
+}
