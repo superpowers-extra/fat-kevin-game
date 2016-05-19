@@ -8,5 +8,6 @@
   "gridHeight": 16,
   "charset": null,
   "charsetOffset": 32,
-  "formatVersion": 1
+  "formatVersion": 2,
+  "opacity": null
 }

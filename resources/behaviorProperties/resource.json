@@ -211,6 +211,7 @@
     },
     "CardsBinderBehavior": {
       "scriptId": "94",
+      "line": 6,
       "parentBehavior": null,
       "properties": []
     },

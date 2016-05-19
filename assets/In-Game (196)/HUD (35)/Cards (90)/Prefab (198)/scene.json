@@ -17,7 +17,10 @@
                 "alignment": "left",
                 "size": 10,
                 "color": null,
-                "verticalAlignment": "center"
+                "verticalAlignment": "center",
+                "formatVersion": 2,
+                "overrideOpacity": false,
+                "opacity": null
               },
               "id": "0"
             }
@@ -55,7 +58,10 @@
                 "alignment": "center",
                 "size": null,
                 "color": null,
-                "verticalAlignment": "center"
+                "verticalAlignment": "center",
+                "formatVersion": 2,
+                "overrideOpacity": false,
+                "opacity": null
               },
               "id": "0"
             }
@@ -95,7 +101,8 @@
             "overrideOpacity": false,
             "opacity": null,
             "materialType": "basic",
-            "shaderAssetId": null
+            "shaderAssetId": null,
+            "formatVersion": 1
           },
           "id": "0"
         }

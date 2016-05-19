@@ -67,11 +67,11 @@ class CardsBinderBehavior extends Sup.Behavior
         else if (Input.right())
           this.cursor.x = 1;
 
-        for(let key in this.cards)
+        for(let key = 0; key < this.cards.length; key++)
         {
            if (this.cards[key].x == this.cursor.x && this.cards[key].y == this.cursor.y)
            {
-             if (this.selectedCard != key)
+             if (this.selectedCard !== key)
              {
                if (this.tween != null)
                  this.tween.stop();

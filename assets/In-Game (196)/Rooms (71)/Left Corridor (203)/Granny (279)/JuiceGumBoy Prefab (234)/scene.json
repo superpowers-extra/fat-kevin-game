@@ -16,7 +16,8 @@
             "overrideOpacity": false,
             "opacity": null,
             "materialType": "shader",
-            "shaderAssetId": "120"
+            "shaderAssetId": "120",
+            "formatVersion": 1
           },
           "id": "0"
         },
@@ -27,11 +28,14 @@
             "movable": true,
             "width": 2,
             "height": 1,
-            "offsetX": 0,
-            "offsetY": 0,
-            "tileMapAssetId": "",
+            "tileMapAssetId": null,
             "tileSetPropertyName": null,
-            "layersIndex": null
+            "layersIndex": null,
+            "formatVersion": 1,
+            "offset": {
+              "x": 0,
+              "y": 0
+            }
           },
           "id": "4"
         },

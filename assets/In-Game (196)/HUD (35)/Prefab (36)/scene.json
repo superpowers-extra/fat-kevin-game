@@ -23,7 +23,8 @@
                 },
                 "depth": 0,
                 "nearClippingPlane": 0.1,
-                "farClippingPlane": 1000
+                "farClippingPlane": 1000,
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -99,7 +100,10 @@
                     "alignment": "center",
                     "size": null,
                     "color": null,
-                    "verticalAlignment": "center"
+                    "verticalAlignment": "center",
+                    "formatVersion": 2,
+                    "overrideOpacity": false,
+                    "opacity": null
                   },
                   "id": "0"
                 }
@@ -139,7 +143,8 @@
                 "overrideOpacity": false,
                 "opacity": null,
                 "materialType": "basic",
-                "shaderAssetId": null
+                "shaderAssetId": null,
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -186,7 +191,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "basic",
-                    "shaderAssetId": null
+                    "shaderAssetId": null,
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -229,7 +235,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "basic",
-                    "shaderAssetId": null
+                    "shaderAssetId": null,
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -267,7 +274,10 @@
                     "alignment": "center",
                     "size": 70,
                     "color": "516a85",
-                    "verticalAlignment": "top"
+                    "verticalAlignment": "top",
+                    "formatVersion": 2,
+                    "overrideOpacity": false,
+                    "opacity": null
                   },
                   "id": "0"
                 }
@@ -305,7 +315,10 @@
                     "alignment": "left",
                     "size": 50,
                     "color": "516a85",
-                    "verticalAlignment": "top"
+                    "verticalAlignment": "top",
+                    "formatVersion": 2,
+                    "overrideOpacity": false,
+                    "opacity": null
                   },
                   "id": "0"
                 }
@@ -347,7 +360,10 @@
                         "alignment": "left",
                         "size": 50,
                         "color": "ae4565",
-                        "verticalAlignment": "center"
+                        "verticalAlignment": "center",
+                        "formatVersion": 2,
+                        "overrideOpacity": false,
+                        "opacity": null
                       },
                       "id": "0"
                     }
@@ -385,7 +401,10 @@
                         "alignment": "left",
                         "size": 50,
                         "color": "ae4565",
-                        "verticalAlignment": "center"
+                        "verticalAlignment": "center",
+                        "formatVersion": 2,
+                        "overrideOpacity": false,
+                        "opacity": null
                       },
                       "id": "0"
                     }
@@ -423,7 +442,10 @@
                         "alignment": "left",
                         "size": 50,
                         "color": "ae4565",
-                        "verticalAlignment": "center"
+                        "verticalAlignment": "center",
+                        "formatVersion": 2,
+                        "overrideOpacity": false,
+                        "opacity": null
                       },
                       "id": "0"
                     }
@@ -466,7 +488,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "basic",
-                        "shaderAssetId": null
+                        "shaderAssetId": null,
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -596,7 +619,8 @@
                 "overrideOpacity": false,
                 "opacity": null,
                 "materialType": "basic",
-                "shaderAssetId": null
+                "shaderAssetId": null,
+                "formatVersion": 1
               },
               "id": "0"
             },
@@ -647,7 +671,8 @@
                 "overrideOpacity": true,
                 "opacity": 0,
                 "materialType": "basic",
-                "shaderAssetId": null
+                "shaderAssetId": null,
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -690,7 +715,8 @@
                 "overrideOpacity": false,
                 "opacity": null,
                 "materialType": "basic",
-                "shaderAssetId": null
+                "shaderAssetId": null,
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -732,7 +758,10 @@
                     "alignment": "center",
                     "size": 120,
                     "color": "222222",
-                    "verticalAlignment": "center"
+                    "verticalAlignment": "center",
+                    "formatVersion": 2,
+                    "overrideOpacity": false,
+                    "opacity": null
                   },
                   "id": "0"
                 }
@@ -767,7 +796,10 @@
                 "alignment": "center",
                 "size": 120,
                 "color": "f7f7f7",
-                "verticalAlignment": "center"
+                "verticalAlignment": "center",
+                "formatVersion": 2,
+                "overrideOpacity": false,
+                "opacity": null
               },
               "id": "0"
             }
@@ -809,7 +841,10 @@
                     "alignment": "center",
                     "size": 60,
                     "color": "222222",
-                    "verticalAlignment": "center"
+                    "verticalAlignment": "center",
+                    "formatVersion": 2,
+                    "overrideOpacity": false,
+                    "opacity": null
                   },
                   "id": "0"
                 }
@@ -844,7 +879,10 @@
                 "alignment": "center",
                 "size": 60,
                 "color": "f7f7f7",
-                "verticalAlignment": "center"
+                "verticalAlignment": "center",
+                "formatVersion": 2,
+                "overrideOpacity": false,
+                "opacity": null
               },
               "id": "0"
             }
@@ -891,7 +929,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "basic",
-                    "shaderAssetId": null
+                    "shaderAssetId": null,
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -931,7 +970,8 @@
                 "overrideOpacity": false,
                 "opacity": null,
                 "materialType": "basic",
-                "shaderAssetId": null
+                "shaderAssetId": null,
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -1081,7 +1121,10 @@
                     "alignment": "center",
                     "size": 60,
                     "color": null,
-                    "verticalAlignment": "center"
+                    "verticalAlignment": "center",
+                    "formatVersion": 2,
+                    "overrideOpacity": false,
+                    "opacity": null
                   },
                   "id": "0"
                 }
@@ -1119,7 +1162,10 @@
                     "alignment": "center",
                     "size": null,
                     "color": null,
-                    "verticalAlignment": "center"
+                    "verticalAlignment": "center",
+                    "formatVersion": 2,
+                    "overrideOpacity": false,
+                    "opacity": null
                   },
                   "id": "0"
                 }
@@ -1159,7 +1205,8 @@
                 "overrideOpacity": false,
                 "opacity": null,
                 "materialType": "basic",
-                "shaderAssetId": null
+                "shaderAssetId": null,
+                "formatVersion": 1
               },
               "id": "0"
             }

@@ -13,7 +13,8 @@
             "castShadow": false,
             "receiveShadow": true,
             "materialType": "shader",
-            "shaderAssetId": "120"
+            "shaderAssetId": "120",
+            "formatVersion": 1
           },
           "id": "0"
         }
@@ -156,7 +157,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -197,7 +199,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -238,7 +241,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -279,7 +283,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -346,7 +351,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -387,7 +393,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -428,7 +435,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -469,7 +477,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -538,7 +547,8 @@
                     "offset": {
                       "x": 3.5,
                       "y": -6
-                    }
+                    },
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -583,7 +593,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "shader",
-                        "shaderAssetId": "120"
+                        "shaderAssetId": "120",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     },
@@ -600,7 +611,8 @@
                         "offset": {
                           "x": 0,
                           "y": 1
-                        }
+                        },
+                        "formatVersion": 1
                       },
                       "id": "1"
                     }
@@ -641,7 +653,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "shader",
-                        "shaderAssetId": "120"
+                        "shaderAssetId": "120",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     },
@@ -658,7 +671,8 @@
                         "offset": {
                           "x": 0,
                           "y": 1
-                        }
+                        },
+                        "formatVersion": 1
                       },
                       "id": "1"
                     }

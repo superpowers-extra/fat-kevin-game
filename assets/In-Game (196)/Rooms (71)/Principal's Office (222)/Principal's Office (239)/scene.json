@@ -13,7 +13,8 @@
             "castShadow": false,
             "receiveShadow": true,
             "materialType": "shader",
-            "shaderAssetId": "120"
+            "shaderAssetId": "120",
+            "formatVersion": 1
           },
           "id": "0"
         }
@@ -161,7 +162,8 @@
                     "offset": {
                       "x": 0,
                       "y": 0.3
-                    }
+                    },
+                    "formatVersion": 1
                   },
                   "id": "2"
                 }
@@ -291,7 +293,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "shader",
-                        "shaderAssetId": "120"
+                        "shaderAssetId": "120",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -332,7 +335,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "shader",
-                        "shaderAssetId": "120"
+                        "shaderAssetId": "120",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -373,7 +377,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "shader",
-                        "shaderAssetId": "120"
+                        "shaderAssetId": "120",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -414,7 +419,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "shader",
-                        "shaderAssetId": "120"
+                        "shaderAssetId": "120",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -455,7 +461,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "shader",
-                        "shaderAssetId": "120"
+                        "shaderAssetId": "120",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -493,7 +500,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 },
@@ -510,7 +518,8 @@
                     "offset": {
                       "x": 0,
                       "y": 0
-                    }
+                    },
+                    "formatVersion": 1
                   },
                   "id": "1"
                 }
@@ -551,7 +560,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 },
@@ -568,7 +578,8 @@
                     "offset": {
                       "x": 0,
                       "y": 0
-                    }
+                    },
+                    "formatVersion": 1
                   },
                   "id": "1"
                 }
@@ -609,7 +620,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 },
@@ -626,7 +638,8 @@
                     "offset": {
                       "x": 0,
                       "y": 0
-                    }
+                    },
+                    "formatVersion": 1
                   },
                   "id": "1"
                 }
@@ -667,7 +680,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "basic",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -708,7 +722,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 },
@@ -725,7 +740,8 @@
                     "offset": {
                       "x": 0,
                       "y": 0
-                    }
+                    },
+                    "formatVersion": 1
                   },
                   "id": "1"
                 }
@@ -766,7 +782,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 },
@@ -783,7 +800,8 @@
                     "offset": {
                       "x": 0,
                       "y": 0
-                    }
+                    },
+                    "formatVersion": 1
                   },
                   "id": "1"
                 }
@@ -824,7 +842,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 },
@@ -841,7 +860,8 @@
                     "offset": {
                       "x": 0,
                       "y": 0
-                    }
+                    },
+                    "formatVersion": 1
                   },
                   "id": "1"
                 }
@@ -882,7 +902,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 },
@@ -899,7 +920,8 @@
                     "offset": {
                       "x": 0,
                       "y": 0
-                    }
+                    },
+                    "formatVersion": 1
                   },
                   "id": "1"
                 }
@@ -940,7 +962,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 },
@@ -957,7 +980,8 @@
                     "offset": {
                       "x": 0,
                       "y": 0
-                    }
+                    },
+                    "formatVersion": 1
                   },
                   "id": "1"
                 }
@@ -1029,7 +1053,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "shader",
-                        "shaderAssetId": "120"
+                        "shaderAssetId": "120",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -1070,7 +1095,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "shader",
-                        "shaderAssetId": "120"
+                        "shaderAssetId": "120",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -1111,7 +1137,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "shader",
-                        "shaderAssetId": "120"
+                        "shaderAssetId": "120",
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -1149,7 +1176,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 },
@@ -1166,7 +1194,8 @@
                     "offset": {
                       "x": 0,
                       "y": 0
-                    }
+                    },
+                    "formatVersion": 1
                   },
                   "id": "1"
                 }
@@ -1207,7 +1236,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1274,7 +1304,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1315,7 +1346,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1356,7 +1388,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1397,7 +1430,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1438,7 +1472,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1479,7 +1514,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1520,7 +1556,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1561,7 +1598,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1602,7 +1640,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1643,7 +1682,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1684,7 +1724,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -1725,7 +1766,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "shader",
-                    "shaderAssetId": "120"
+                    "shaderAssetId": "120",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
