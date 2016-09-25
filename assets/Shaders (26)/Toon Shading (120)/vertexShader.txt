@@ -1,13 +1,13 @@
 varying vec2 vUv;
 varying vec3 worldNormal;
 
-THREE_ShaderChunk(common)
-THREE_ShaderChunk(lights_lambert_pars_vertex)
-THREE_ShaderChunk(skinning_pars_vertex)
-THREE_ShaderChunk(shadowmap_pars_vertex)
+#include <common>
+#include <bsdfs>
+#include <lights_pars>
+#include <skinning_pars_vertex>
+#include <shadowmap_pars_vertex>
 
 varying vec4 vColor;
-
 
 void main() {
   vUv = uv;
@@ -20,13 +20,13 @@ void main() {
                     modelMatrix[0][2]*modelMatrix[0][2] ) ;
   }
   
-  THREE_ShaderChunk(beginnormal_vertex)
-  THREE_ShaderChunk(skinbase_vertex)
-  THREE_ShaderChunk(skinnormal_vertex)
+  #include <beginnormal_vertex>
+  #include <skinbase_vertex>
+  #include <skinnormal_vertex>
     
-  THREE_ShaderChunk(begin_vertex)
-  THREE_ShaderChunk(skinning_vertex)
-  THREE_ShaderChunk(project_vertex)
+  #include <begin_vertex>
+  #include <skinning_vertex>
+  #include <project_vertex>
     
   vec4 n;
   #ifdef USE_SKINNING
@@ -37,8 +37,8 @@ void main() {
   n = modelMatrix * n;
   worldNormal = normalize( n ).xyz;
   
-  THREE_ShaderChunk(worldpos_vertex)
-  THREE_ShaderChunk(shadowmap_vertex)
+  #include <worldpos_vertex>
+  #include <shadowmap_vertex>
   
 //   vColor = vec4(1.0, 1.0, 1.0, 1.0);
 //   vColor.xyz = n.xyz * 0.5 + 0.5;
