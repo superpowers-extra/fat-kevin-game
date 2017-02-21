@@ -8,6 +8,7 @@ uniform vec3 color;
 #include <common>
 #include <bsdfs>
 #include <lights_pars>
+#include <packing>
 #include <shadowmap_pars_fragment>
 
 uniform float shadow1Value;

@@ -74,7 +74,6 @@
                       "height": 2048
                     },
                     "shadowBias": -0.002,
-                    "shadowDarkness": 0.5,
                     "shadowCameraNearPlane": 0.1,
                     "shadowCameraFarPlane": 20,
                     "shadowCameraFov": 50,
@@ -84,7 +83,7 @@
                       "left": -20,
                       "right": 20
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2
                   },
                   "id": "0"
                 }
@@ -133,7 +132,11 @@
                   "x": 0,
                   "y": 0
                 },
-                "formatVersion": 1
+                "formatVersion": 2,
+                "bounce": {
+                  "x": 0,
+                  "y": 0
+                }
               },
               "id": "1"
             }

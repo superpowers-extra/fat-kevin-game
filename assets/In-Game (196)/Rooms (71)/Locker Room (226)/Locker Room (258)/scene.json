@@ -361,7 +361,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -464,7 +468,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -567,7 +575,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -670,7 +682,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -773,7 +789,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -876,7 +896,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -979,7 +1003,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -1039,7 +1067,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -1141,7 +1173,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -1201,7 +1237,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -1261,7 +1301,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -1321,7 +1365,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -1381,7 +1429,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -1441,7 +1493,11 @@
                       "x": -0.25,
                       "y": -0.9
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -1501,7 +1557,11 @@
                       "x": -0.25,
                       "y": -1.2
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -1561,7 +1621,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -1621,7 +1685,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
