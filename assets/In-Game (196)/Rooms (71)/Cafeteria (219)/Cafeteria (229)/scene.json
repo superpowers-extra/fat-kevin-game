@@ -434,7 +434,11 @@
                           "x": -0.05,
                           "y": 0
                         },
-                        "formatVersion": 1
+                        "formatVersion": 2,
+                        "bounce": {
+                          "x": 0,
+                          "y": 0
+                        }
                       },
                       "id": "0"
                     }
@@ -491,7 +495,11 @@
                       "x": -1.2,
                       "y": -0.9
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -597,7 +605,11 @@
                           "x": 2.3,
                           "y": 0.5
                         },
-                        "formatVersion": 1
+                        "formatVersion": 2,
+                        "bounce": {
+                          "x": 0,
+                          "y": 0
+                        }
                       },
                       "id": "1"
                     }
@@ -704,7 +716,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -764,7 +780,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -824,7 +844,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -884,7 +908,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -941,7 +969,11 @@
                           "x": 0,
                           "y": 0
                         },
-                        "formatVersion": 1
+                        "formatVersion": 2,
+                        "bounce": {
+                          "x": 0,
+                          "y": 0
+                        }
                       },
                       "id": "1"
                     }
@@ -1005,7 +1037,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1065,7 +1101,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1125,7 +1165,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1185,7 +1229,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1242,7 +1290,11 @@
                           "x": 0,
                           "y": 0
                         },
-                        "formatVersion": 1
+                        "formatVersion": 2,
+                        "bounce": {
+                          "x": 0,
+                          "y": 0
+                        }
                       },
                       "id": "1"
                     }
@@ -1306,7 +1358,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1366,7 +1422,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1426,7 +1486,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1486,7 +1550,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1543,7 +1611,11 @@
                           "x": 0,
                           "y": 0
                         },
-                        "formatVersion": 1
+                        "formatVersion": 2,
+                        "bounce": {
+                          "x": 0,
+                          "y": 0
+                        }
                       },
                       "id": "1"
                     }
@@ -1607,7 +1679,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1667,7 +1743,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1727,7 +1807,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1787,7 +1871,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1844,7 +1932,11 @@
                           "x": 0,
                           "y": 0
                         },
-                        "formatVersion": 1
+                        "formatVersion": 2,
+                        "bounce": {
+                          "x": 0,
+                          "y": 0
+                        }
                       },
                       "id": "1"
                     }
@@ -1908,7 +2000,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -1968,7 +2064,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -2028,7 +2128,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -2088,7 +2192,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -2145,7 +2253,11 @@
                           "x": 0,
                           "y": 0
                         },
-                        "formatVersion": 1
+                        "formatVersion": 2,
+                        "bounce": {
+                          "x": 0,
+                          "y": 0
+                        }
                       },
                       "id": "1"
                     }
@@ -2209,7 +2321,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -2269,7 +2385,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -2329,7 +2449,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -2389,7 +2513,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -2446,7 +2574,11 @@
                           "x": 0,
                           "y": 0
                         },
-                        "formatVersion": 1
+                        "formatVersion": 2,
+                        "bounce": {
+                          "x": 0,
+                          "y": 0
+                        }
                       },
                       "id": "1"
                     }
@@ -2510,7 +2642,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -2570,7 +2706,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -2630,7 +2770,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -2690,7 +2834,11 @@
                               "x": 0,
                               "y": 0.1
                             },
-                            "formatVersion": 1
+                            "formatVersion": 2,
+                            "bounce": {
+                              "x": 0,
+                              "y": 0
+                            }
                           },
                           "id": "1"
                         }
@@ -2747,7 +2895,11 @@
                           "x": 0,
                           "y": 0
                         },
-                        "formatVersion": 1
+                        "formatVersion": 2,
+                        "bounce": {
+                          "x": 0,
+                          "y": 0
+                        }
                       },
                       "id": "1"
                     }

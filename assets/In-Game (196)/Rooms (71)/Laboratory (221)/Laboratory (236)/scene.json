@@ -699,7 +699,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "0"
                 }
@@ -996,7 +1000,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "0"
                 }
@@ -3292,7 +3300,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -3352,7 +3364,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
@@ -3538,7 +3554,11 @@
                       "x": 0,
                       "y": 0
                     },
-                    "formatVersion": 1
+                    "formatVersion": 2,
+                    "bounce": {
+                      "x": 0,
+                      "y": 0
+                    }
                   },
                   "id": "1"
                 }
